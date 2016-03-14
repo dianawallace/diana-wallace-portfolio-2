@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700italic,700);
+
+
+header {
+    height: 430px;
+    background: #cf0004 url(../images/Wallace_banner_1200.jpg) no-repeat center bottom;
+    
+}
+
+.navbar {
+    background-color: #cf0004;
+    height: 75px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 0;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: none !important;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.intro {
+    background-color: #cf0004;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.block-quote {
+    border: 0;
+}
+
+/* Text */
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+h3 { 
+    margin: .5em 0 .5em 0;
+    font-size: 1.3em; 
+    font-weight: 700;
+}
+
+h4 {
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+p { 
+    margin: .5em 0 1em 0;
+} 
+
+a, a:visited {
+    color: black;
+}
+
+a {
+    color: #D00308;
+}
+
+a.btn {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 15px;
+    transition: background-color .5s;
+    margin-left: 75px;
+}
+
+a.btn:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
+.overview {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.projects {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.blog-posts {
+    background-color: #D00308;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+.portfolio {
+    background-color: #f4e4e6;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.icons li {
+    display: inline;
+    margin: 10px;
+    
+}
+
+.social-icons {
+    text-align: center;
+}
