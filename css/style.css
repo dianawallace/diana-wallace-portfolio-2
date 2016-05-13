@@ -60,6 +60,7 @@ h2 {
     font-weight: 700;
     line-height: 1.1em;
     padding-top: 50px;
+    text-align: center;
 }
 
 h3 { 
@@ -74,11 +75,15 @@ h4 {
     margin: 0 0 1.5em 0;
     font-size: 1em;
     font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
 }
 
 p { 
     margin: .5em 0 1em 0;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
 } 
 
 a, a:visited {
@@ -143,6 +148,14 @@ a.btn:hover {
 
 .social-icons {
     text-align: center;
+    padding-right: 20px;
+}
+
+.icons {
+    padding-left: 0;
+}
+.social {
+    background-color: #c9c9c9; 
 }
 
 /*Media Queries */
@@ -180,12 +193,8 @@ a.btn {
     font-size: 12px;
 }
     
-.social-icons {
-    padding-right: 40px;
-}  
 
-.icons {
-    padding-left: 0;
-}
+
+
 
 
