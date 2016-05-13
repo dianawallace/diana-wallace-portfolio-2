@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 .5em 0;
+    margin: 0 20px .5em 20px;
     font-size: 1.6em;
     font-weight: 700;
     line-height: 1.1em;
@@ -75,16 +75,18 @@ h4 {
     margin: 0 0 1.5em 0;
     font-size: 1em;
     font-weight: 700;
-    text-align: center;
     margin-top: 20px;
 }
 
 p { 
-    margin: .5em 0 1em 0;
+    margin: .5em 20px 1em 20px;
     margin-top: 20px;
     margin-bottom: 50px;
-    text-align: center;
 } 
+
+.content {
+    text-align: center;
+}
 
 a, a:visited {
     color: black;
@@ -110,6 +112,7 @@ a.btn:hover {
 .overview {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #c9c9c9;
 }
 
 .projects {
